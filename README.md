@@ -1,4 +1,4 @@
-# Learn JavaScript ✨
+# Learn JavaScript
 
 A comprehensive collection of JavaScript learning exercises, examples, and concept implementations with detailed code comments. Each file demonstrates core JavaScript concepts through practical examples and clear explanations.
 
