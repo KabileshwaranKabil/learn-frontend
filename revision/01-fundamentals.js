@@ -42,9 +42,9 @@ console.log(`Hello, ${username}`);
 // Challenge 01 
 /*
 let name = "Kabileshwaran";
-let age = 23;
+var age = 23;
 let country = "Sri Lanka";
-let future_goal = "To Become a Software Engineer";
+var future_goal = "To Become a Software Engineer";
 
 console.log(`Name: ${name}`);
 console.log(`Age: ${age}`);
@@ -326,5 +326,3 @@ console.log(lowestPrice(prices));
 console.log(totalSum(prices));
 console.log(averagePrice(prices));
 */
-
-
