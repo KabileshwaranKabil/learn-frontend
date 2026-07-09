@@ -21,18 +21,18 @@ Status: ⬜ Not Started
 
 Topics:
 
-* [ ] JavaScript Introduction
-* [ ] JavaScript Runtime
-* [ ] Variables (`let`, `const`)
-* [ ] Data Types
-* [ ] Primitive vs Reference Types
-* [ ] Operators
-* [ ] Type Conversion
-* [ ] Truthy and Falsy Values
-* [ ] Template Literals
-* [ ] Strings
-* [ ] Numbers
-* [ ] Math Object
+* [x] JavaScript Introduction
+* [x] JavaScript Runtime
+* [x] Variables (`let`, `const`)
+* [x] Data Types
+* [x] Primitive vs Reference Types
+* [x] Operators
+* [x] Type Conversion
+* [x] Truthy and Falsy Values
+* [x] Template Literals
+* [x] Strings
+* [x] Numbers
+* [x] Math Object
 
 ---
 
