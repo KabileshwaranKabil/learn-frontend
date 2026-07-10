@@ -6,18 +6,11 @@ Master modern JavaScript fundamentals and advanced concepts required to build re
 
 This repository focuses only on **core JavaScript**.
 
-Excluded:
-
-* React
-* Node.js
-* Express.js
-* Other JavaScript frameworks and libraries
-
 ---
 
 ## 1: JavaScript Fundamentals
 
-Status: ⬜ Not Started
+Status:  ✅ Completed
 
 Topics:
 
