@@ -21,7 +21,7 @@ console.log("Hello, World!");
 
 // Variables
 let name = "Kabileshwaran";
-const age = 25;
+const age = 23;
 
 // Function
 function greet(user) {
@@ -30,25 +30,10 @@ function greet(user) {
 console.log(greet(name));
 ```
 
-## Common Mistakes
-- Forgetting `let`/`const` → creates **implicit globals**.
-- Confusing `==` vs `===`.
-- Misunderstanding asynchronous behavior (thinking JS is multi-threaded).
-
 ## Best Practices
 - Always use `const` unless reassignment is needed.
 - Prefer `===` for strict equality.
 - Write modular, reusable functions.
-
-## Real-world Usage
-- **Frontend**: DOM manipulation, event handling, animations.
-- **Backend**: APIs with Node.js.
-- **Full-stack**: MERN/MEAN stack applications.
-
-## Interview Questions
-- Why is JavaScript single-threaded?
-- Difference between `var`, `let`, and `const`.
-- Explain the event loop.
 
 ## Practice Exercises
 1. Write a program that prints your name and age.
