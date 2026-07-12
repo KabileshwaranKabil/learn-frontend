@@ -3,12 +3,19 @@
 
 This repository focuses only on **core JavaScript**.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c2f6495fdf81b935843c4dafcfcde4546d04fc98
 ---
 
 ## 1: JavaScript Fundamentals
 
+<<<<<<< HEAD
 Status: ✅ Completed
+=======
+Status:  ✅ Completed
+>>>>>>> c2f6495fdf81b935843c4dafcfcde4546d04fc98
 
 Topics:
 
