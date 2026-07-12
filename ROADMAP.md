@@ -1,23 +1,14 @@
 # JavaScript Learning Roadmap
 
-## Goal
-
-Master modern JavaScript fundamentals and advanced concepts required to build real-world applications.
 
 This repository focuses only on **core JavaScript**.
 
-Excluded:
-
-* React
-* Node.js
-* Express.js
-* Other JavaScript frameworks and libraries
 
 ---
 
 ## 1: JavaScript Fundamentals
 
-Status: ⬜ Not Started
+Status: ✅ Completed
 
 Topics:
 
@@ -38,100 +29,100 @@ Topics:
 
 ## 2: Control Flow
 
-Status: ⬜ Not Started
+Status: ✅ Completed
 
 Topics:
 
-* [ ] if statement
-* [ ] if else
-* [ ] switch
-* [ ] ternary operator
-* [ ] for loop
-* [ ] while loop
-* [ ] do while loop
-* [ ] for of loop
-* [ ] break
-* [ ] continue
+* [x] if statement
+* [x] if else
+* [x] switch
+* [x] ternary operator
+* [x] for loop
+* [x] while loop
+* [x] do while loop
+* [x] for of loop
+* [x] break
+* [x] continue
 
 ---
 
 ##  3: Functions
 
-Status: ⬜ Not Started
+Status: ✅ Completed
 
 Topics:
 
-* [ ] Function Declaration
-* [ ] Function Expression
-* [ ] Arrow Functions
-* [ ] Parameters
-* [ ] Return Values
-* [ ] Default Parameters
-* [ ] Rest Parameters
-* [ ] Spread Syntax
-* [ ] Callback Functions
-* [ ] Higher Order Functions
-* [ ] Recursion
+* [x] Function Declaration
+* [x] Function Expression
+* [x] Arrow Functions
+* [x] Parameters
+* [x] Return Values
+* [x] Default Parameters
+* [x] Rest Parameters
+* [x] Spread Syntax
+* [x] Callback Functions
+* [x] Higher Order Functions
+* [x] Recursion
 
 ---
 
 ##  4: Arrays
 
-Status: ⬜ Not Started
+Status: ✅ Completed
 
 Topics:
 
-* [ ] Creating Arrays
-* [ ] Accessing Elements
-* [ ] Updating Arrays
-* [ ] Array Iteration
+* [x] Creating Arrays
+* [x] Accessing Elements
+* [x] Updating Arrays
+* [x] Array Iteration
 
 Methods:
 
-* [ ] map()
-* [ ] filter()
-* [ ] reduce()
-* [ ] find()
-* [ ] some()
-* [ ] every()
-* [ ] sort()
-* [ ] slice()
-* [ ] splice()
+* [x] map()
+* [x] filter()
+* [x] reduce()
+* [x] find()
+* [x] some()
+* [x] every()
+* [x] sort()
+* [x] slice()
+* [x] splice()
 
 ---
 
 ##  5: Objects
 
-Status: ⬜ Not Started
+Status: ✅ Completed
 
 Topics:
 
-* [ ] Object Creation
-* [ ] Object Properties
-* [ ] Object Methods
-* [ ] Nested Objects
-* [ ] Object Destructuring
-* [ ] Object.keys()
-* [ ] Object.values()
-* [ ] Object.entries()
-* [ ] this keyword
+* [x] Object Creation
+* [x] Object Properties
+* [x] Object Methods
+* [x] Nested Objects
+* [x] Object Destructuring
+* [x] Object.keys()
+* [x] Object.values()
+* [x] Object.entries()
+* [x] this keyword
 
 ---
 
 ##  6: Modern JavaScript
 
-Status: ⬜ Not Started
+Status: ✅ Completed
 
 Topics:
 
-* [ ] ES6 Features
-* [ ] Template Literals
-* [ ] Destructuring
-* [ ] Spread Operator
-* [ ] Rest Operator
-* [ ] Modules
-* [ ] Optional Chaining
-* [ ] Nullish Coalescing
+* [x] ES6 Features
+* [x] Template Literals
+* [x] Destructuring
+* [x] Spread Operator
+* [x] Rest Operator
+* [x] Modules
+* [x] Optional Chaining
+* [x] Nullish Coalescing
 
 ---
 
