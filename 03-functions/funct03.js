@@ -20,3 +20,9 @@ function factorial(n) {
   return n * factorial(n - 1);
 }
 console.log("Factorial 5:", factorial(5));
+
+
+const processUser = (callback,name) =>{
+    callback(name);
+}
+processUser((name)=> console.log(name),"Dhanush")

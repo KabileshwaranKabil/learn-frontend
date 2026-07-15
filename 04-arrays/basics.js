@@ -4,10 +4,21 @@ const arr2 = new Array(5);
 const arr3 = Array.of(1, 2, 3);
 console.log(arr1, arr2, arr3);
 
+
+const studentNames = ["Kabilesh","Dhanush","Nimethan","Janagan","Kabishan"]
+// const friends = new Array(10)
+
+const family = Array.of("Manomohan","Jayalaxmi","Dhanush")
+
+
+// family.forEach((fam)=> console.log(fam))
+
+
 // Accessing Elements
 const fruits = ["apple", "banana", "cherry"];
 console.log("First:", fruits[0]);
 console.log("Last:", fruits[fruits.length - 1]);
+
 
 // Updating Arrays
 const nums = [10, 20, 30];

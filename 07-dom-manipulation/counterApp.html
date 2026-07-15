@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;   
+            align-items: center;       
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+        }
+
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        #counter {
+            font-size: 4rem;
+            margin: 1rem 0;
+            color: #333;
+        }
+
+        button {
+            padding: 0.6rem 1.2rem;
+            margin: 0.5rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        #increment {
+            background: #4CAF50;
+            color: white;
+        }
+
+        #increment:hover {
+            background: #45a049;
+        }
+
+        #decrement {
+            background: #f44336;
+            color: white;
+        }
+
+        #decrement:hover {
+            background: #d32f2f;
+        }
+
+        #message {
+            margin-top: 1rem;
+            font-size: 1rem;
+            color: red;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p id="counter">0</p>
+        <button id="increment">Increment</button>
+        <button id="decrement">Decrement</button>
+        <p id="message"></p>
+    </div>
+
+    <script>
+        const text = document.getElementById("counter");
+        const lastText = document.getElementById("message");
+        const btnIncrement = document.getElementById("increment");
+        btnIncrement.addEventListener("click",()=>{
+            let number = text.textContent;
+            text.innerHTML = ++number
+            lastText.textContent = ` `;
+        });
+
+        const btnDecrement = document.getElementById("decrement");
+        btnDecrement.addEventListener("click",()=>{
+            let number = parseInt(text.textContent);
+            if(number>0){
+                text.innerHTML = --number
+                
+            }else{
+                lastText.innerHTML=`no negative number allowed`
+            }
+        });
+    </script>
+</body>
+</html>

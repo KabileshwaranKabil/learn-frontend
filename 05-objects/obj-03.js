@@ -1,7 +1,21 @@
 // Object.keys()
-const person = { name: "Kabi", age: 25, city: "Colombo" };
+const person = {
+  name: "Kabilesh", 
+  age: 25, 
+  city: "Colombo" 
+};
 console.log("Keys:", Object.keys(person));
 
+const student = {
+  name: "Kabileshwaran",
+  age: 23,
+  city: "Nuwara Eliya",
+  country: "Sri Lanka" 
+};
+console.log("Keys: ",Object.keys(student))
+
+
+console.log("values: ",Object.values(student))
 // Object.values()
 console.log("Values:", Object.values(person));
 
