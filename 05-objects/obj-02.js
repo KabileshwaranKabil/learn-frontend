@@ -18,6 +18,7 @@ const student = {
 console.log("City:", student.address.city);
 
 // Object Destructuring
+// is a way to unpack values from objects into variables in a clean,short
 const { name, age = 20 } = { name: "Kabi" };
 console.log("Destructured:", name, age);
 
