@@ -131,9 +131,9 @@ Status: ⬜ Not Started
 
 Topics:
 
-* [ ] Selecting Elements
-* [ ] Changing Content
-* [ ] Changing Styles
+* [x] Selecting Elements
+* [x] Changing Content
+* [x] Changing Styles
 * [ ] Creating Elements
 * [ ] Removing Elements
 * [ ] Forms

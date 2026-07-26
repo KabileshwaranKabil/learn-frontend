@@ -1,7 +1,7 @@
-# 📘 Modern JavaScript (ES6 and Beyond)
+# Modern JavaScript
 
 
-## ✅ ES6 Features
+##  ES6 Features
 
 ### Key Additions
 - **let / const**: Block-scoped variables.
@@ -11,20 +11,18 @@
 - **Default parameters**: Assign defaults in function signatures.
 - **Rest/Spread operators**: Collect or expand values.
 - **Modules**: Import/export code across files.
-- **Classes**: Syntactic sugar for prototypes.
-- **Promises**: Better async handling.
 
 ### Example
 ```js
-const name = "Kabi";
-let age = 25;
+const name = "Kabil";
+let age = 23;
 const greet = () => `Hello, ${name}, age ${age}`;
 console.log(greet());
 ```
 
 ---
 
-## ✅ Template Literals
+##  Template Literals
 
 ### What it is
 Strings defined with backticks `` ` `` that allow:
@@ -42,7 +40,7 @@ console.log(message);
 
 ---
 
-## ✅ Destructuring
+## Destructuring
 
 ### What it is
 Extract values from arrays or objects into variables.
@@ -69,7 +67,7 @@ console.log(nickname); // Guest
 
 ---
 
-## ✅ Spread Operator
+##  Spread Operator
 
 ### What it is
 Expands arrays or objects into individual elements.
@@ -87,7 +85,7 @@ console.log(obj2); // {a:1, b:2, c:3}
 
 ---
 
-## ✅ Rest Operator
+##  Rest Operator
 
 ### What it is
 Collects multiple arguments into an array.
@@ -102,7 +100,7 @@ console.log(sum(1,2,3,4)); // 10
 
 ---
 
-## ✅ Modules
+##  Modules
 
 ### What it is
 Split code into separate files and reuse with `import`/`export`.
@@ -110,7 +108,9 @@ Split code into separate files and reuse with `import`/`export`.
 ### Example
 ```js
 // math.js
-export function add(a,b) { return a+b; }
+export function add(a,b) { 
+    return a+b; 
+}
 
 // main.js
 import { add } from './math.js';
@@ -123,21 +123,21 @@ console.log(add(2,3)); // 5
 
 ---
 
-## ✅ Optional Chaining
+##  Optional Chaining
 
 ### What it is
 Safely access nested properties without throwing errors.
 
 ### Example
 ```js
-const user = { profile: { name: "Kabi" } };
-console.log(user?.profile?.name); // "Kabi"
+const user = { profile: { name: "Kabil" } };
+console.log(user?.profile?.name); // "Kabil"
 console.log(user?.address?.city); // undefined (no error)
 ```
 
 ---
 
-## ✅ Nullish Coalescing
+##  Nullish Coalescing
 
 ### What it is
 Provides a default value only when the left-hand side is `null` or `undefined`.
@@ -158,7 +158,7 @@ console.log(zero ?? 42); // 0 (correct)
 
 ---
 
-## 📝 Practice Problems (from MDN, freeCodeCamp, W3Schools)
+##  Practice Problems
 
 1. Use **template literals** to build a multi-line string that includes variables for `name` and `age`.  
 2. Given an object `{x:10, y:20}`, use **destructuring** to extract values and print them.  
@@ -170,7 +170,7 @@ console.log(zero ?? 42); // 0 (correct)
 
 ---
 
-### 🔑 Key Takeaways
+###  Key Takeaways
 - ES6 modernized JavaScript with cleaner syntax and safer patterns.  
 - Template literals, destructuring, spread/rest operators simplify code.  
 - Modules enable structured, reusable programs.  

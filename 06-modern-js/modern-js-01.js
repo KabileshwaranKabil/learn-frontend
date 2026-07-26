@@ -1,16 +1,10 @@
-// ES6 Features Demo
-const name = "Kabileshwaran";
-let age = 25;
-const greet = () => `Hello, ${name}, age ${age}`;
-console.log(greet());
-
 // Template Literals
 const message = `Hello, ${name}!
 Welcome to ES6.`;
 console.log(message);
 
 // Destructuring
-const person = { name: "Kabi", age: 25 };
+const person = { name: "Kabil", age: 23 };
 const { name: personName, age: personAge } = person;
 console.log(personName, personAge);
 
@@ -33,9 +27,6 @@ function sum(...numbers) {
 }
 console.log(sum(1,2,3,4));
 
-// Modules (conceptual demo)
-// math.js: export function add(a,b){return a+b;}
-// main.js: import { add } from './math.js';
 
 // Optional Chaining
 const user = { profile: { name: "Kabi" } };

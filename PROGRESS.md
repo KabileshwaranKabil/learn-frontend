@@ -4,9 +4,9 @@
 
 Started Date: 08/07/2026
 
-Last Updated: 08/07/2026
+Last Updated: 26/07/2026
 
-Current Phase:
+Current Phase: DOM Manipulation
 
 ---
 
@@ -14,13 +14,13 @@ Current Phase:
 
 | Phase               |  Status | Completion |
 | ------------------- |  ------ | ---------- |
-| Fundamentals        |  ⬜     | 0%         |
-| Control Flow        |  ⬜     | 0%         |
-| Functions           |  ⬜     | 0%         |
-| Arrays              |  ⬜     | 0%         |
-| Objects             |  ⬜     | 0%         |
-| Modern JavaScript   |  ⬜     | 0%         |
-| DOM                 |  ⬜     | 0%         |
+| Fundamentals        |  ✅     | 70%        |
+| Control Flow        |  ✅     | 70%        |
+| Functions           |  ✅     | 70%        |
+| Arrays              |  ✅     | 70%        |
+| Objects             |  ✅     | 70%        |
+| Modern JavaScript   |  ✅     | 60%        |
+| DOM                 |  ⬜     | 40%        |
 | Events              |  ⬜     | 0%         |
 | Async JavaScript    |  ⬜     | 0%         |
 | OOP                 |  ⬜     | 0%         |
@@ -29,37 +29,61 @@ Current Phase:
 
 ---
 
-# Currently Learning
+## Currently Learning
 
-## Topic:
+### Topic: Modern JavaScript , DOM
 
-## Started:
+### Started: 26th July 2026
 
-## Notes:
-
+### Notes:
+* template literal
+* destructuring - extract values from arrays and objects
+* rest/spread operators - expand values
+* Optional Chaining : nested values
+* Nullish Coalescing
+* DOM
+* Selecting elements - different types
+* Reading and Changing content
 ---
 
-# Completed Topics
+## Completed Topics
 
-## Fundamentals
+### Fundamentals
 
 Completed:
 
-* [ ]
+* [x] 
 
-Date:
+Date: 08th July 2026
+
+### Control Flow
+
+Completed:
+* [x]   
+
+Date: 10th July 2026
+
+### Functions
+
+Completed:
+* [x]   
+
+Date: 12th July 2026
+
 
 ---
 
-# Revision Needed
+## Revision Needed
 
 Topics to revisit:
 
-*
+* Arrays
+* Objects
+* DOM
 
 ---
 
-# Projects Completed
+## Projects Completed
 
 | Project | Concepts Used | Status |
 | ------- | ------------- | ------ |
