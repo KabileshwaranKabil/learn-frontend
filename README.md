@@ -57,10 +57,6 @@ Experiment with Code
 
         ↓
 
-Build Projects
-
-        ↓
-
 Review and Improve
 ```
 
